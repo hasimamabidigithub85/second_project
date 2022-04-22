@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.gropse.epub.Activity.Hindi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Toolbar
+            android:layout_width="match_parent"
+            android:background="@color/Dark_yellow"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".1"
+                    android:background="@color/Dark_yellow"
+                    android:fontFamily="@font/montserrat_extra_bold"
+                    android:gravity="center"
+                    android:text="Epothi"
+                    android:textColor="#fff"
+                    android:textSize="21sp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </Toolbar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight=".006"> </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09">
+
+            </View>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_1_hindi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="133dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#fff"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:text="Class I"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/hindi_book1"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/shape"
+                        android:backgroundTint="#EBCA6C"
+                        android:fontFamily="@font/montserrat_extra_bold"
+                        android:gravity="center"
+                        android:text="कक्षा १"
+
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09">
+
+            </View>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_2_hindi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="133dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#fff"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:text="Class I"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/hindi_book2"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/shape"
+                        android:backgroundTint="#EBCA6C"
+                        android:fontFamily="@font/montserrat_extra_bold"
+                        android:gravity="center"
+                        android:text="कक्षा २"
+
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09">
+
+            </View>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".03">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09">
+
+            </View>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_3_hindi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="133dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#fff"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:text="Class I"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/hindi_book3"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/shape"
+                        android:backgroundTint="#EBCA6C"
+                        android:fontFamily="@font/montserrat_extra_bold"
+                        android:gravity="center"
+                        android:text="कक्षा ३"
+
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_weight=".09">
+
+            </View>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_4_hindi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="133dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#fff"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:text="Class I"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/hindi_book2"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/shape"
+                        android:backgroundTint="#EBCA6C"
+                        android:fontFamily="@font/montserrat_extra_bold"
+                        android:gravity="center"
+                        android:text="कक्षा ४"
+
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09">
+
+            </View>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".03">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09">
+
+            </View>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_5_hindi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="133dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#fff"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:text="कक्षा ५"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/hindi_book5"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/shape"
+                        android:backgroundTint="#EBCA6C"
+                        android:fontFamily="@font/montserrat_extra_bold"
+                        android:gravity="center"
+                        android:text="कक्षा ५"
+
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09">
+
+            </View>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_6_hindi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="133dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#fff"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:text="Class I"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/hindi_book6"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/shape"
+                        android:backgroundTint="#EBCA6C"
+                        android:fontFamily="@font/montserrat_extra_bold"
+                        android:gravity="center"
+                        android:text="कक्षा ६"
+
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09">
+
+            </View>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".03">
+
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09"></View>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_7_hindi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="133dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#fff"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:text="Class I"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/hindi_book7"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/shape"
+                        android:backgroundTint="#EBCA6C"
+                        android:fontFamily="@font/montserrat_extra_bold"
+                        android:gravity="center"
+                        android:text="कक्षा ७"
+
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09"></View>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/class_8_hindi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="133dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape"
+                    android:backgroundTint="#fff"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:text="Class I"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="2"
+                        android:src="@drawable/hindi_book8"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".8"
+                        android:background="@drawable/shape"
+                        android:backgroundTint="#EBCA6C"
+                        android:fontFamily="@font/montserrat_extra_bold"
+                        android:gravity="center"
+                        android:text="कक्षा ८"
+
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".09"></View>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".03">
+        </View>
+    </LinearLayout>
+
+
+</RelativeLayout>

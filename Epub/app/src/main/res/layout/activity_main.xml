@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F0F0"
+    android:gravity="center"
+    tools:context="com.gropse.epub.Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".009"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Scert Up">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_extra_bold"
+                android:gravity="center_horizontal"
+                android:text="Epothi"
+                android:textColor="@color/black"
+                android:textSize="26sp"></TextView>
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/english_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight=".006"
+            android:background="#fff"
+            android:onClick="selectEnglish"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:padding="10dp"
+                    android:src="@drawable/statue_of_liberty"></ImageView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:text="TextBook English"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:background="#EBCA6C">
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".0013"></View>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hindi_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".006"
+            android:background="#fff"
+            android:onClick="selectHindi"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:padding="10dp"
+                    android:src="@drawable/temple_bg">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:text="TextBook Hindi"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:background="#EBCA6C"></RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".0013">
+
+        </View>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/urdu_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".006"
+            android:background="#fff"
+            android:onClick="selectUrdu"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:padding="10dp"
+                    android:src="@drawable/mosque">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:text="TextBook Urdu"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:background="#EBCA6C">
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".0013">
+
+        </View>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/teacher_training_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".006"
+            android:background="#fff"
+            android:onClick="hfks"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".6"
+                    android:padding="10dp"
+                    android:src="@drawable/classroom">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:text="Teacher Training Material"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6"
+                    android:background="#EBCA6C">
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".01"></View>
+    </LinearLayout>
+
+</RelativeLayout>
